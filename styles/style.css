@@ -33,3 +33,42 @@ ul#mainMenu a {
     font-weight: 400;
     line-height: 24px;
 }
+
+.options {
+    list-style-image: url("http://energycontrol.ru/tekh-podderzhka/Help/drex_sravnenie_kanalov_svyazi_mezhdu_soboj_custom.png");
+    list-style-position: outside;
+}
+
+.options p {
+    margin: 0px;
+    height: 32px;
+    line-height: 16px;
+}
+
+textarea,
+input {
+    font-size: 14px;
+    font-style: oblique;
+    width: 300px;
+    background-color: #fffae9;
+}
+
+input[type="submit"] {
+    color: white;
+    display: block;
+    background-color: orange;
+    font-style: normal;
+    height: 40px;
+    border: none;
+    border: 3px;
+    border-radius: 3px; 
+}
+
+.ymaps-2-1-68-searchbox-button-text {
+    background-color: orange;
+    color: white;
+}
+
+.ymaps-2-1-68-searchbox-button.ymaps-2-1-68-_pin_right {
+    background-color: orange;    
+}
