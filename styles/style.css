@@ -1,5 +1,6 @@
 body {
     background: #f8f8f8;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 ul#mainMenu {
@@ -10,10 +11,25 @@ ul#mainMenu a {
     color: cadetblue;
 }
 
-
 .blackHeader {
     color: black;
-    font: Arial Verdana serif 18px 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
     background-color: #eaeaea 
 }
 
+.shortDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fullDescription {
+    color: #484343;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
