@@ -35,14 +35,8 @@ ul#mainMenu a {
 }
 
 .options {
-    list-style-image: url("http://energycontrol.ru/tekh-podderzhka/Help/drex_sravnenie_kanalov_svyazi_mezhdu_soboj_custom.png");
-    list-style-position: outside;
-}
-
-.options p {
-    margin: 0px;
-    height: 32px;
-    line-height: 16px;
+    list-style-image: url("https://www.shareicon.net/data/2015/05/24/43578_list_32x32.png");
+    line-height: 14px;
 }
 
 textarea,
@@ -64,6 +58,12 @@ input[type="submit"] {
     border-radius: 3px; 
 }
 
+img {
+border-style: double;
+border-color: #eaeaea;
+border-width: 5px;
+}
+
 .ymaps-2-1-68-searchbox-button-text {
     background-color: orange;
     color: white;
@@ -72,3 +72,4 @@ input[type="submit"] {
 .ymaps-2-1-68-searchbox-button.ymaps-2-1-68-_pin_right {
     background-color: orange;    
 }
+
