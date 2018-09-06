@@ -3,7 +3,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    text-transform: capitalize;
+}
 
+body > p:first-letter {
+    font-size: 120%;
+    color:orange;
+}
 
 ul#mainMenu {
     list-style-type: none;
@@ -16,6 +23,20 @@ ul#mainMenu a {
 }
 
 ul#mainMenu a:hover {
+    color: orange;
+}
+
+.catalogMenu {
+    list-style-type: none;
+}
+
+
+.catalogMenu a {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.catalogMenu a:hover {
     color: orange;
 }
 
@@ -76,8 +97,42 @@ input[type="submit"] {
 img {
 border-style: double;
 border-color: #eaeaea;
-border-width: 5px;
+border-width: 10px;
 }
+
+img:hover {
+    border: none;
+    padding: 10px;
+}
+
+img.logo {
+    border: none;
+}
+
+table, th,
+td {
+    border-collapse: collapse;
+    border: 1px solid cadetblue;
+    text-align: center;
+    border-spacing: 0px;
+}
+
+th {
+    padding: 8px 4px;
+}
+
+tbody>tr:hover {
+    background-color: lightblue; 
+}
+
+td {
+    padding: 4px 8px;
+}
+
+td:nth-child(2) {
+    text-align: left;
+}
+
 
 .ymaps-2-1-68-searchbox-button-text {
     background-color: orange;
@@ -87,4 +142,5 @@ border-width: 5px;
 .ymaps-2-1-68-searchbox-button.ymaps-2-1-68-_pin_right {
     background-color: orange;    
 }
+
 
