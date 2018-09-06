@@ -53,11 +53,13 @@ input {
     font-style: oblique;
     width: 300px;
     background-color: #fffae9;
-    font-style: title;
+    text-transform: capitalize;
 }
 
+textarea:focus,
 input:focus {
-    background-color: #a3bebf;
+    background-color: white;
+    outline-color: orange;
 }
 
 input[type="submit"] {
