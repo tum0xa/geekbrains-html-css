@@ -95,9 +95,9 @@ input[type="submit"] {
 }
 
 img {
-border-style: double;
-border-color: #eaeaea;
-border-width: 10px;
+    border-style: double;
+    border-color: #eaeaea;
+    border-width: 10px;
 }
 
 img:hover {
@@ -132,7 +132,6 @@ td {
 td:nth-child(2) {
     text-align: left;
 }
-
 
 .ymaps-2-1-68-searchbox-button-text {
     background-color: orange;
