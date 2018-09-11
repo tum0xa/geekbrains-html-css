@@ -8,11 +8,14 @@ p {
     color: #484343;
 }
 
-body > p:first-letter {
+body div>p:first-letter {
     font-size: 120%;
     color:orange;
 }
 
+.content {
+    margin: 10px 0 10px;
+}
 .container {
     width: 960px;
     margin: 0 auto;
@@ -67,8 +70,32 @@ ul#mainMenu a:hover {
 
 .catalogMenu {
     list-style-type: none;
+    display: flex;
+}
+.catalogMenu li {
+    width: 18%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+/*
+    background: lightgoldenrodyellow;
+*/
+    
 }
 
+.catalogMenu li p {
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.catalogMenu img {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .catalogMenu a {
     text-decoration: none;
@@ -87,10 +114,16 @@ ul#mainMenu a:hover {
 }
 .product_desc {
     display: inline-block;
-    /* width: auto; */
+    width: 73%;
     float: left;
-    margin: 1%;
+    margin: 0 10px 0;
 }
+
+.product_full_desc {
+    clear: both;
+    margin: 10px;
+}
+
 .blackHeader {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -107,7 +140,14 @@ ul#mainMenu a:hover {
 }
 
 .charact {
+/*
     float: left;
+*/
+    clear: both;
+/*
+    width: 73%;
+*/
+    margin: 0 10px 10px;
 }
 
 .fullDescription {
@@ -154,6 +194,8 @@ img {
     border-style: double;
     border-color: #eaeaea;
     border-width: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 img:hover {
@@ -203,4 +245,26 @@ td:nth-child(2) {
     background: #c2d3de;
     text-align: right;
     padding: 10px 10px 0 0;
+}
+
+.btn_price {
+    margin: 0 auto 0;
+    font-size: 110%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 100px;
+    padding: 15px; 
+    background: orange;
+    text-decoration: none;
+    float: left;
+}
+
+.btn_price:hover {
+    background: #ff9000;
+}
+
+hr {
+    color: #b28a5d;
 }
