@@ -6,82 +6,101 @@
         <link rel="stylesheet" href="../../../styles/style.css">
     </head>
     <body>
-        <h3>DailyLog - Ежедневники для профессионалов</h3>
-        <!--Меню-->
-        <ul id="mainMenu">
-            <li>
-                <a href="../../../index.html">Главная</a>
-            </li>
-            <li>
-                <a href="../../../catalog.html">Каталог</a>
-            </li>
-            <li>
-                <a href="../../../contacts.html">Контакты</a>
-            </li>
-        </ul>
-        <!-- Конец меню -->
-        <hr>
-        <h1>Умный ежедневник (HTML/CSS)</h1>
-        <a href="../../../images/dummy.png" target="_blank">
-            <img src="../../../images/dummy.png"
-                 alt="Умный ежедневник для верстальщика"
-                 width="200">    
-        </a>
-        <h2 class="blackHeader">Описание:</h2>
-        <p class="shortDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi ullam,
-            ex adipisci qui suscipit placeat pariatur culpa omnis necessitatibus.
-        </p>
-        <h2 class="blackHeader">Характеристики:</h2>
-            <table>
-                <thead>
-                    <th>№ п/п</th>
-                    <th>Характеристика</th>
-                    <th>Значение</th>
-                    <th>Ед. изм.</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Количество листов</td>
-                        <td>240</td>
-                        <td>шт</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Чит-листы</td>
-                        <td>24</td>
-                        <td>шт</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Встраиваемый микромпьютер</td>
-                        <td colspan="2">есть</td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Место под хранения карт памяти</td>
-                        <td>3</td>
-                        <td>шт</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Материал обложки</td>
-                        <td colspan="2">Эко-кожа</td>
-                    </tr>
-                </tbody>
-            </table>
-        <h2 class="blackHeader">Подробное описание:</h2>
-        <p class="fullDescription">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam voluptas 
-            rem illo. Ut tempora eum laudantium dolor obcaecati rem quo quis saepe! 
-            Molestias blanditiis inventore eveniet repudiandae sint modi ad, sapiente 
-            placeat facere voluptate itaque recusandae, veniam quisquam magnam.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam voluptas 
-            rem illo. Ut tempora eum laudantium dolor obcaecati rem quo quis saepe! 
-            Molestias blanditiis inventore eveniet repudiandae sint modi ad, sapiente 
-            placeat facere voluptate itaque recusandae, veniam quisquam magnam.
-        </p>
-        <hr>
-        &copy; DailyLog. Все права защищены 2018
+        <div class="container">
+            <header>
+                <img src="../../../images/dummy.png" width="64">
+                <h3>DailyLog - Ежедневники для профессионалов</h3>
+                <!--Меню-->
+                <ul id="mainMenu">
+                    <li>
+                        <a href="../../../index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a href="../../../catalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="../../../contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </header>
+            <hr>
+            <div class="content">
+                <h1>Умный ежедневник (HTML/CSS)</h1>
+                <div class="product_image">
+                    <a href="../../../images/dummy.png" target="_blank">
+                        <img src="../../../images/dummy.png"
+                             alt="Умный ежедневник для верстальщика"
+                             width="200">    
+                    </a>
+                </div>
+                <div class="product_desc">
+                    <h2 class="blackHeader">Описание:</h2>
+                    <p class="shortDescription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sequi ullam,
+                        ex adipisci qui suscipit placeat pariatur culpa omnis necessitatibus.
+                    </p>
+                </div>
+                <a class="btn_price" href="#">Купить</a>
+                <div class="charact">
+                    <h2 class="blackHeader">Характеристики:</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>№ п/п</th>
+                                <th>Характеристика</th>
+                                <th>Значение</th>
+                                <th>Ед. изм.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Количество листов</td>
+                                <td>240</td>
+                                <td>шт</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Чит-листы</td>
+                                <td>24</td>
+                                <td>шт</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Встраиваемый микромпьютер</td>
+                                <td colspan="2">есть</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Место под хранения карт памяти</td>
+                                <td>3</td>
+                                <td>шт</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Материал обложки</td>
+                                <td colspan="2">Эко-кожа</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="product_full_desc">
+                    <h2 class="blackHeader">Подробное описание:</h2>
+                    <p class="fullDescription">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam voluptas 
+                        rem illo. Ut tempora eum laudantium dolor obcaecati rem quo quis saepe! 
+                        Molestias blanditiis inventore eveniet repudiandae sint modi ad, sapiente 
+                        placeat facere voluptate itaque recusandae, veniam quisquam magnam.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nam voluptas 
+                        rem illo. Ut tempora eum laudantium dolor obcaecati rem quo quis saepe! 
+                        Molestias blanditiis inventore eveniet repudiandae sint modi ad, sapiente 
+                        placeat facere voluptate itaque recusandae, veniam quisquam magnam.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                &copy; DailyLog. Все права защищены 2018
+            </footer>
+           </div>
     </body>
 </html>
