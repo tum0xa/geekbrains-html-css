@@ -5,21 +5,64 @@ body {
 
 p {
     text-transform: capitalize;
+    color: #484343;
 }
 
-body > p:first-letter {
+body div>p:first-letter {
     font-size: 120%;
     color:orange;
 }
 
-ul#mainMenu {
-    list-style-type: none;
+.content {
+    margin: 10px 0 10px;
+}
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+header {
+    height: 150px;
+    box-shadow: 2px 3px 4px #ccc;
+    background: url(https://businessvisit.com.ua/wp-content/uploads/2018/07/5-kursy-angliyskogo-yazyka.jpg);
+}
+
+header img {
+    width: 10%;
+    margin: 10px 0 0 40px;
+    display: inline-block;
+    float: left;
     
 }
 
+header h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant-caps: all-titling-caps;
+    color: black;
+    text-shadow: #eaeaea;
+    display: block;
+    margin: 11% 0 auto 1%;
+    float: left;
+}
+
+ul#mainMenu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    list-style-type: none;
+    display: inline-block;
+    margin: 10% 5% auto 5%;
+    float: right;
+}
+
 ul#mainMenu a {
-    color: cadetblue;
+    color: #b28a5d;
     text-decoration: none;
+    float: left;
+}
+
+#mainMenu li {
+    display: inline-block;
+    margin: 10px 10px;
 }
 
 ul#mainMenu a:hover {
@@ -28,8 +71,32 @@ ul#mainMenu a:hover {
 
 .catalogMenu {
     list-style-type: none;
+    display: flex;
+}
+.catalogMenu li {
+    width: 18%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+/*
+    background: lightgoldenrodyellow;
+*/
+    
 }
 
+.catalogMenu li p {
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.catalogMenu img {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
 
 .catalogMenu a {
     text-decoration: none;
@@ -38,6 +105,24 @@ ul#mainMenu a:hover {
 
 .catalogMenu a:hover {
     color: orange;
+}
+
+.product_image {
+    display: inline-block;
+    float: left; 
+    width: auto;
+    margin: 1%;
+}
+.product_desc {
+    display: inline-block;
+    width: 73%;
+    float: left;
+    margin: 0 10px 0;
+}
+
+.product_full_desc {
+    clear: both;
+    margin: 10px;
 }
 
 .blackHeader {
@@ -55,6 +140,17 @@ ul#mainMenu a:hover {
     line-height: 16px;
 }
 
+.charact {
+/*
+    float: left;
+*/
+    clear: both;
+/*
+    width: 73%;
+*/
+    margin: 0 10px 10px;
+}
+
 .fullDescription {
     color: #484343;
     text-align: left;
@@ -66,6 +162,7 @@ ul#mainMenu a:hover {
 .options {
     list-style-image: url("https://www.shareicon.net/data/2015/05/24/43578_list_32x32.png");
     line-height: 14px;
+    
 }
 
 textarea,
@@ -95,9 +192,11 @@ input[type="submit"] {
 }
 
 img {
-border-style: double;
-border-color: #eaeaea;
-border-width: 10px;
+    border-style: double;
+    border-color: #eaeaea;
+    border-width: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 img:hover {
@@ -133,7 +232,6 @@ td:nth-child(2) {
     text-align: left;
 }
 
-
 .ymaps-2-1-68-searchbox-button-text {
     background-color: orange;
     color: white;
@@ -143,4 +241,33 @@ td:nth-child(2) {
     background-color: orange;    
 }
 
+footer {
+    height: 120px;
+    background: #c2d3de;
+    text-align: right;
+    padding: 10px 10px 0 0;
+    box-shadow: 2px 3px 4px #ccc;
+    opacity: 0.5;
+}
 
+.btn_price {
+    margin: 0 auto 0;
+    font-size: 110%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    display: block;
+    width: 100px;
+    padding: 15px; 
+    background: orange;
+    text-decoration: none;
+    float: left;
+}
+
+.btn_price:hover {
+    background: #ff9000;
+}
+
+hr {
+    color: #b28a5d;
+}
